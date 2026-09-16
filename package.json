@@ -1,0 +1,24 @@
+{
+  "name": "routely",
+  "version": "1.0.0",
+  "description": "Routely - adaptive OpenRouter proxy with self-tuning model selection for coding agents",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "node --test src/__tests__/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sql.js": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nock": "^13.5.4"
+  },
+  "keywords": ["openrouter", "proxy", "ai", "llm"],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,36 @@
+# Secrets — never commit API keys
+.env
+
+# SQLite runtime databases (price/selection/request history)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime / OS
+.DS_Store
+Thumbs.db
+
+# PM2
+.pm2/
+
+# Test / coverage artifacts
+coverage/
+.nyc_output/
+
+# Local Kilo state (keep shared commands/agents; ignore machine-local state and nested ignore)
+.kilo/.gitignore
+.kilo/worktrees/
+.kilo/agent-manager.json
+
+# Temp files
+tmp/
+temp/

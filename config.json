@@ -1,0 +1,28 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 4000
+  },
+  "catalog": {
+    "refreshIntervalSeconds": 300
+  },
+  "cheap": {
+    "minContext": 100000,
+    "maxInputPrice": 0.5,
+    "maxOutputPrice": 0.5,
+    "requireTools": true,
+    "minCodingIndex": 50,
+    "includeFreeModels": false
+  },
+  "balanced": {
+    "minContext": 100000,
+    "maxInputPrice": 2.0,
+    "maxOutputPrice": 8.0,
+    "requireTools": true,
+    "minCodingIndex": 60,
+    "includeFreeModels": false
+  },
+  "auto": {
+    "costTier": "low"
+  }
+}
