@@ -1,5 +1,6 @@
 # Secrets — never commit API keys
 .env
+.kilo
 
 # SQLite runtime databases (price/selection/request history)
 *.db
